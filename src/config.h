@@ -1,8 +1,17 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define SCREEN_HEIGHT 120
-#define SCREEN_WIDTH  80
+#define SCREEN_HEIGHT 240
+#define SCREEN_WIDTH  160
+
+// #define SCREEN_HEIGHT 120
+// #define SCREEN_WIDTH  80
+
+#define sxOS_TOTAL_INTERRUPTS 256       // total number of interrupts in the kernel
+#define KERNEL_CODE_SELECTOR 0x08       // from the boot.asm
+#define KERNEL_DATA_SELECTOR 0x10       // from the boot.asm
+
+
 
 #define sxOS_logo "" \
 "  /\\_/\\   \n" \

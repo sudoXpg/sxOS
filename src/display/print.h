@@ -8,5 +8,6 @@
 
 void termial_init();
 void print(const char *s);
+void write_char(char c,char color);
 
 #endif
