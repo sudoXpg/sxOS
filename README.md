@@ -2,6 +2,8 @@
 
 `sxOS` is a bare-metal operating system developed from scratch in C and assembly. This OS is designed to run directly on hardware or in a virtualized environment (like QEMU) and serves as a foundation for learning OS development, low-level programming, and embedded systems.
 
+Redirect to https://github.com/sudoXpg/x86_protected_mode
+
 ## Table of Contents
 - [Features](#features)
 - [File Structure](#file-structure)
